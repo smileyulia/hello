@@ -1,3 +1,4 @@
+<!DOCTYPE HTML>
 <html>
 <head>
 	<title>Hello, JS!</title>
@@ -9,7 +10,7 @@
 	<script>
 			var admin; //Объявила переменную, значение undefined
 			var name='Василий'; 
-			var admin='Василий'; //присваиваем значение
+			admin=name; //присваиваем admin значение name
 			alert(admin);
 	</script>
 </head>
